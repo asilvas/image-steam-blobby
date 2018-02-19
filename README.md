@@ -1,4 +1,4 @@
-# image-steam-redis
+# image-steam-blobby
 Blobby client for [Image Steam](https://github.com/asilvas/node-image-steam).
 
 **For caching only**
