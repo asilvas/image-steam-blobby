@@ -28,7 +28,7 @@ export default class StorageBlobby extends StorageHttp
       'Content-Length': image.buffer.length,
       'Content-Type': image.contentType || 'application/octet-stream', // default to binary if unknown
       'Authorization': `ApiKey ${options.secret}`,
-      'x-isteam-meta': JSON.stringify(image.info)
+      'x-amz-meta-isteam': JSON.stringify(image.info)
     };
 
     const req = client.request(reqOptions, function(res) {
