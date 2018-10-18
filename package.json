@@ -1,6 +1,6 @@
 {
   "name": "image-steam-blobby",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Blobby client for Image Steam: https://github.com/asilvas/node-image-steam",
   "main": "index.js",
   "scripts": {
@@ -18,8 +18,7 @@
     "url": "https://github.com/asilvas/image-steam-blobby/issues"
   },
   "homepage": "https://github.com/asilvas/image-steam-blobby#readme",
-  "dependencies": {
-  },
+  "dependencies": {},
   "peerDependencies": {
     "image-steam": ">=0.37.0"
   },
